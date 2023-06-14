@@ -1,0 +1,26 @@
+@import './fonts';
+
+a, p, span, h1, h2, h3, h4, h5, h6 {
+  font-family: $exo !important;
+}
+
+header {
+  .navbar {
+    &-nav {
+      .nav-item {
+        a {
+          font-size: 1.1em;
+          &.item-link {
+            font-weight: 500;
+            i {
+              font-weight: 500;
+            }
+            &:hover {
+              background-color: #e4e4e4;
+            }
+          }
+        }
+      }
+    }
+  }
+}
